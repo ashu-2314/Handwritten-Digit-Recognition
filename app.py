@@ -251,38 +251,20 @@ section[data-testid="stSidebar"] {
     color: #7c3aed;
 }
 
-/* ---------------- FEATURE CARDS ---------------- */
+/* FEATURE CARDS */
 
 .feature-card {
-
-    background: white;
-
-    padding: 28px;
-
-    border-radius: 22px;
-
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.05);
-
+    background: rgba(255,255,255,0.82);
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
     transition: 0.3s ease;
-
-    height: 190px;
-
-    border: 1px solid #f1f5f9;
+    backdrop-filter: blur(12px);
+    min-height: 250px;
 }
-
-/* Hover */
 
 .feature-card:hover {
-
     transform: translateY(-8px);
-
-    box-shadow: 0px 15px 35px rgba(0,0,0,0.08);
-}
-
-/* ADD SPACE BEFORE FOOTER */
-
-.main .block-container {
-    padding-bottom: 120px;
 }
 
 /* FOOTER */
@@ -376,9 +358,7 @@ left, right = st.columns([2,1])
 # ---------- LEFT ---------- #
 
 with left:
-
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
+    
     st.markdown(
         '<div class="upload-title">📤 Upload Digit Image</div>',
         unsafe_allow_html=True
