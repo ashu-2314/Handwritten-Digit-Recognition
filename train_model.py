@@ -44,7 +44,7 @@ history = model.fit(
 )
 
 # Save model
-model.save("model/mnist_cnn.keras")
+model.save("model/mnist_cnn.h5")
 
 # Evaluate
 test_loss, test_acc = model.evaluate(x_test, y_test)

@@ -13,7 +13,7 @@ st.set_page_config(
 
 # ---------------- LOAD MODEL ---------------- #
 
-model = tf.keras.models.load_model("model/mnist_cnn.keras")
+model = tf.keras.models.load_model("model/mnist_cnn.h5")
 
 # ---------------- CUSTOM CSS ---------------- #
 
