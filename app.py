@@ -279,31 +279,25 @@ section[data-testid="stSidebar"] {
     box-shadow: 0px 15px 35px rgba(0,0,0,0.08);
 }
 
-/* ---------------- FOOTER ---------------- */
+/* ADD SPACE BEFORE FOOTER */
+
+.main .block-container {
+    padding-bottom: 120px;
+}
+
+/* FOOTER */
 
 .footer {
-
-    position: fixed;
-
-    bottom: 0;
-
-    left: 0;
-
     width: 100%;
-
     text-align: center;
-
-    padding: 14px;
-
-    color: #64748b;
-
-    font-size: 15px;
-
-    background: rgba(255,255,255,0.8);
-
+    padding: 18px;
+    margin-top: 60px;
+    color: #475569;
+    font-size: 17px;
+    font-weight: 600;
+    background: rgba(255,255,255,0.75);
+    border-top: 1px solid rgba(0,0,0,0.06);
     backdrop-filter: blur(10px);
-
-    border-top: 1px solid #e2e8f0;
 }
 
 /* ---------------- REMOVE STREAMLIT BRANDING ---------------- */
