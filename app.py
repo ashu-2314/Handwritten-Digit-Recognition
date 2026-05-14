@@ -296,6 +296,29 @@ header {
     visibility: hidden;
 }
 
+/* FORCE FEATURE CARD TEXT COLORS */
+
+.feature-card h3,
+.feature-card h2,
+.feature-card strong {
+    color: #111827 !important;
+    opacity: 1 !important;
+    font-weight: 800 !important;
+}
+
+.feature-card p,
+.feature-card span,
+.feature-card div {
+    color: #334155 !important;
+    opacity: 1 !important;
+}
+
+/* ICON VISIBILITY */
+
+.feature-card {
+    color: #111827 !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
